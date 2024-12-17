@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Information">
+
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_home"
+                        android:icon="@drawable/menu_home"
+                        android:title="Home" />
+
+
+                    <item
+                        android:id="@+id/nav_grades"
+                        android:icon="@drawable/menu_grade"
+                        android:title="Grades" />
+
+                    <item
+                        android:id="@+id/nav_Schedule"
+                        android:icon="@drawable/menu_schedule"
+                        android:title="Class Schedule" />
+
+
+                    <item
+                        android:id="@+id/nav_Subject"
+                        android:icon="@drawable/menu_subjects"
+                        android:title="Subjects" />
+
+
+                    <item
+                        android:id="@+id/nav_Calendar"
+                        android:icon="@drawable/menu_calendar"
+                        android:title="Campus Calendar" />
+
+
+
+                </group>
+            </menu>
+
+        </item>
+
+        <item android:title="Others">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_Enroll"
+                        android:icon="@drawable/menu_enroll"
+                        android:title="Enrollment" />
+
+                    <item
+                        android:id="@+id/nav_Forms"
+                        android:icon="@drawable/menu_form"
+                        android:title="Downloadable Forms" />
+                </group>
+            </menu>
+
+        </item>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/menu_logout"
+            android:title="Logout" />
+
+
+    </group>
+
+
+
+</menu>
